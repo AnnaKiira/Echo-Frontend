@@ -19,12 +19,11 @@ function App() {
   return (
     <>
 
-    {newsData.map(article => (
-    <ArticleCard key={article.url} article={article} />
-     ))}
-    
-    
-    
+    <main>
+      {newsData.map(article => (
+      <ArticleCard key={article.url} article={article} />
+      ))}
+    </main>
     
     </>
   )

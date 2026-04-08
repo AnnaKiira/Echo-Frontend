@@ -1,0 +1,23 @@
+.newsCard {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.newsImage {
+    width: 345px;
+    height: 260px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.newsTitle {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.newsSource {
+    font-size: 15px;
+    font-weight: bold;
+}
